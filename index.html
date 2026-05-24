@@ -1,27 +1,23 @@
 <!doctype html>
 <!--
-  Montenegro 2024 — trip recap site
-  WHAT: A simple, shareable one-page record of Allison + Avital's Montenegro
-        trip (July 11–21, 2024). Built to send to anyone who asks "what did
-        you do?" — clear day-by-day itinerary, where they stayed, how they
-        got around.
-  WHY:  Allison wanted one clean link to share. Not a planner, not complex —
-        just "here's what we actually did."
+  Montenegro — 11-day self-drive itinerary
+  WHAT: A one-page reference for an 11-day Montenegro loop — coast to mountains
+        and back. Day-by-day plan, lodging shortlist, and getting-around notes.
+  WHY:  A clean, sharable starting point for anyone planning a similar trip.
   DECIDED: Single scrolling page. Calm single-accent design (workout-tracker
-        discipline). Only what actually happened — the cancelled Terrae-Car
-        booking is NOT shown; they drove a Toyota Yaris from Tivat.
-  SOURCES: second-brain creative/writing/montenegro.md + montenegro-raw-notes.md
-        (narrative), Gmail booking confirmations (dates/lodging/flights).
+        discipline). Itinerary derived from a real July 2024 trip but presented
+        generically — no personal anecdotes, no specific dates inside the day
+        rail. Months and approximate durations only.
   NEXT: deploy to GitHub Pages, share the link.
 -->
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Montenegro 2024 — Our Trip</title>
+    <title>Montenegro — 11-day self-drive itinerary</title>
     <meta
       name="description"
-      content="Allison & Avital's 11-day Montenegro trip, July 2024 — Kotor, Budva, Durmitor & the Tara canyon. Day-by-day itinerary, lodging, and getting around."
+      content="An 11-day self-drive Montenegro itinerary — Kotor, Budva, Durmitor National Park, and the Tara canyon. Day-by-day plan, lodging, and getting around."
     />
     <link rel="icon" type="image/svg+xml" href="/icon.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -35,10 +31,10 @@
   <body>
     <!-- Sticky section nav -->
     <nav class="topnav" aria-label="Section navigation">
-      <a class="topnav__brand" href="#top">Montenegro&nbsp;’24</a>
+      <a class="topnav__brand" href="#top">Montenegro</a>
       <div class="topnav__links">
         <a href="#days">The days</a>
-        <a href="#stay">Where we stayed</a>
+        <a href="#stay">Where to stay</a>
         <a href="#around">Getting around</a>
       </div>
     </nav>
@@ -46,17 +42,18 @@
     <!-- HERO -->
     <header class="hero" id="top">
       <div class="hero__inner">
-        <p class="hero__kicker">11 days · July 2024</p>
+        <p class="hero__kicker">11 days · self-drive · July</p>
         <h1 class="hero__title">Montenegro</h1>
         <p class="hero__sub">
-          Two friends, one little rented car, and the darkest, most beautiful water
-          in Europe. Here&rsquo;s exactly what we did &mdash; coast to mountains and back.
+          Coast to mountains and back. An 11-day self-drive loop through Kotor, Budva,
+          Durmitor National Park, and the Tara canyon &mdash; some of the darkest, most
+          beautiful water in Europe.
         </p>
         <ul class="hero__facts">
-          <li><span class="hero__facts-label">When</span>July 11&ndash;21, 2024</li>
-          <li><span class="hero__facts-label">Who</span>Allison &amp; Avital</li>
+          <li><span class="hero__facts-label">Length</span>11 days, 10 nights</li>
+          <li><span class="hero__facts-label">Best season</span>July (warm coast, cool mountains)</li>
           <li><span class="hero__facts-label">Route</span>Kotor → Budva → Durmitor → Kolašin → Budva</li>
-          <li><span class="hero__facts-label">Wheels</span>Self-drive (Toyota Yaris, from Tivat)</li>
+          <li><span class="hero__facts-label">Wheels</span>Self-drive (small automatic from Tivat)</li>
         </ul>
       </div>
     </header>
@@ -76,22 +73,22 @@
       <!-- DAY BY DAY -->
       <section id="days" class="section">
         <h2 class="section__title">The days</h2>
-        <p class="section__lead">One thing a day, a sunset most nights, and a slow apartment to come home to.</p>
+        <p class="section__lead">One main thing a day, a sunset most evenings, apartments as a home base throughout.</p>
 
         <div class="days">
           <!-- Day 1 -->
           <article class="day">
             <div class="day__rail">
               <span class="day__num">01</span>
-              <span class="day__date">Thu · Jul 11</span>
+              <span class="day__date">Arrival</span>
             </div>
             <div class="day__body">
               <h3 class="day__place">Landing in Kotor</h3>
               <p>
-                Flew Tel Aviv → Tivat, picked up the car at the airport, and drove around the
-                bay to <strong>Kotor</strong>. In the evening we rode the cable car up the
-                mountain for sunset &mdash; pomegranate juice at the top, the whole bay glowing
-                below &mdash; then wandered the old town after dark.
+                Fly into <strong>Tivat (TIV)</strong>, pick up the car at the airport, and
+                drive ~10 km around the bay to <strong>Kotor</strong>. In the evening, take
+                the cable car up the mountain ridge for sunset over the bay, then wander the
+                old town after dark.
               </p>
               <ul class="day__tags"><li>Cable car</li><li>Sunset</li><li>Old town at night</li></ul>
             </div>
@@ -101,17 +98,16 @@
           <article class="day">
             <div class="day__rail">
               <span class="day__num">02</span>
-              <span class="day__date">Fri · Jul 12</span>
+              <span class="day__date">Coast</span>
             </div>
             <div class="day__body">
               <h3 class="day__place">Bay of Kotor by boat → Budva</h3>
               <p>
-                A four-hour boat tour of the bay: the Blue Cave, a snorkel stop, the island
-                churches, and the old WWII submarine tunnel cut into the cliff. Two dolphins
-                swam alongside us. Then we drove down to <strong>Budva</strong>, checked in, and
-                walked over to Chabad for Shabbat dinner.
+                A four-hour boat tour of the bay covers the <strong>Blue Cave</strong>, a
+                snorkel stop, the island churches, and the WWII submarine tunnel cut into the
+                cliff. In the afternoon, drive ~25 km south to <strong>Budva</strong>.
               </p>
-              <ul class="day__tags"><li>Boat tour</li><li>Blue Cave</li><li>Dolphins</li><li>Erev Shabbat</li></ul>
+              <ul class="day__tags"><li>Boat tour</li><li>Blue Cave</li><li>Bay of Kotor</li></ul>
             </div>
           </article>
 
@@ -119,16 +115,15 @@
           <article class="day">
             <div class="day__rail">
               <span class="day__num">03</span>
-              <span class="day__date">Sat · Jul 13</span>
+              <span class="day__date">Coast</span>
             </div>
             <div class="day__body">
-              <h3 class="day__place">Shabbat in Budva</h3>
+              <h3 class="day__place">Budva: beach + old town</h3>
               <p>
-                A slow Shabbat on the coast. Services at the Budva Chabad, a long walk along the
-                shore into the old town &mdash; an orchestra playing in the square &mdash; and
-                Mogren Beach at sunset.
+                A slow day in Budva. Long shore walk into the old town and
+                <strong>Mogren Beach</strong> at sunset.
               </p>
-              <ul class="day__tags"><li>Shabbat</li><li>Old town</li><li>Mogren Beach</li></ul>
+              <ul class="day__tags"><li>Old town</li><li>Mogren Beach</li><li>Beach day</li></ul>
             </div>
           </article>
 
@@ -136,19 +131,18 @@
           <article class="day">
             <div class="day__rail">
               <span class="day__num">04</span>
-              <span class="day__date">Sun · Jul 14</span>
+              <span class="day__date">Transit</span>
             </div>
             <div class="day__body">
               <h3 class="day__place">Skadar Lake → up to the mountains</h3>
               <p>
-                We kayaked on <strong>Lake Skadar</strong> &mdash; lily pads, birds, total
-                quiet &mdash; until our kayak quietly <em>sank</em> out from under us and we
-                had to be fished out by a passing boat (everything in the dry bag survived; we
-                laughed for an hour). We finished with a private cruise on the lake, then made
-                the long drive up into the mountains to <strong>Žabljak</strong>, our home for
-                the next four nights.
+                Morning kayak or paddle on <strong>Lake Skadar</strong> &mdash; lily pads,
+                birdlife, total quiet. A short private cruise on the lake pairs well. In the
+                afternoon, make the ~3-hour drive up into the mountains to
+                <strong>Žabljak</strong>, the base for Durmitor National Park for the next
+                four nights.
               </p>
-              <ul class="day__tags"><li>Kayaking</li><li>Lake cruise</li><li>The sinking-kayak story</li></ul>
+              <ul class="day__tags"><li>Kayaking</li><li>Lake cruise</li><li>Drive day</li></ul>
             </div>
           </article>
 
@@ -156,14 +150,14 @@
           <article class="day">
             <div class="day__rail">
               <span class="day__num">05</span>
-              <span class="day__date">Mon · Jul 15</span>
+              <span class="day__date">Mountains</span>
             </div>
             <div class="day__body">
               <h3 class="day__place">Durmitor by jeep</h3>
               <p>
-                Settled into the mountains and took a sunset jeep tour through
-                <strong>Durmitor National Park</strong> &mdash; cliffs, canyons, high lakes,
-                fields of horses and butterflies. Trance-like and gorgeous.
+                A sunset jeep tour through <strong>Durmitor National Park</strong> &mdash;
+                cliffs, canyons, high alpine lakes, fields of horses. The best introduction
+                to the park.
               </p>
               <ul class="day__tags"><li>Jeep tour</li><li>Durmitor NP</li><li>Sunset</li></ul>
             </div>
@@ -173,37 +167,35 @@
           <article class="day">
             <div class="day__rail">
               <span class="day__num">06</span>
-              <span class="day__date">Tue · Jul 16</span>
+              <span class="day__date">Mountains</span>
             </div>
             <div class="day__body">
               <h3 class="day__place">Rafting the Tara Canyon</h3>
               <p>
-                Rafting the <strong>Tara River</strong> through Europe&rsquo;s deepest canyon &mdash;
-                a long route, just the two of us, ending in a thunderstorm. Afterwards we sat on the
-                <strong>Tara Bridge</strong> for the best sunset of the whole trip: fog rolling
-                through the canyon, the river vanishing and reappearing, the light shifting purple
-                to gold.
+                A day rafting the <strong>Tara River</strong> through Europe&rsquo;s deepest
+                canyon. Afterwards, drive up to the <strong>Đurđevića Tara Bridge</strong>
+                for sunset &mdash; fog rolling through the canyon is a regular show, the
+                light shifting purple to gold.
               </p>
-              <ul class="day__tags"><li>Tara rafting</li><li>Đurđevića Tara Bridge</li><li>Best sunset</li></ul>
+              <ul class="day__tags"><li>Tara rafting</li><li>Đurđevića Tara Bridge</li><li>Sunset</li></ul>
             </div>
           </article>
 
           <!-- Day 7 -->
-          <article class="day day--star">
+          <article class="day">
             <div class="day__rail">
               <span class="day__num">07</span>
-              <span class="day__date">Wed · Jul 17</span>
-              <span class="day__badge">Birthday</span>
+              <span class="day__date">Mountains</span>
             </div>
             <div class="day__body">
-              <h3 class="day__place">Black Lake — birthday day</h3>
+              <h3 class="day__place">Black Lake hike</h3>
               <p>
-                A forest walk out to <strong>Black Lake (Crno jezero)</strong> on Allison&rsquo;s
-                birthday. Blue butterflies, a figure-eight lake, then a sudden storm &mdash; thunder,
-                rain, even hail &mdash; that turned the bright blue water dark and dramatic. We waited
-                it out in a little hut, swam once the sun came back, and celebrated with Häagen-Dazs.
+                Forest hike out to <strong>Black Lake (Crno jezero)</strong> &mdash; a
+                figure-eight glacial lake inside Durmitor NP, easy round-trip with frequent
+                butterfly sightings. Swim if the weather holds; afternoon thunderstorms are
+                common in the mountains and pass quickly.
               </p>
-              <ul class="day__tags"><li>Black Lake</li><li>Storm + swim</li><li>Birthday ice cream</li></ul>
+              <ul class="day__tags"><li>Black Lake</li><li>Forest hike</li><li>Swim</li></ul>
             </div>
           </article>
 
@@ -211,16 +203,16 @@
           <article class="day">
             <div class="day__rail">
               <span class="day__num">08</span>
-              <span class="day__date">Thu · Jul 18</span>
+              <span class="day__date">Transit</span>
             </div>
             <div class="day__body">
               <h3 class="day__place">Mountains → Kolašin</h3>
               <p>
-                Last morning around Durmitor and the Tara viewpoints, then a drive south through
-                the mountains to <strong>Kolašin</strong> for a night at a little camp in the
-                pines &mdash; a quiet stopover between the peaks and the coast.
+                Morning at the Durmitor viewpoints and the Tara overlooks, then drive ~1 hr
+                south through the mountains to <strong>Kolašin</strong> for an overnight in
+                the pines &mdash; a useful stopover between the peaks and the coast.
               </p>
-              <ul class="day__tags"><li>Drive day</li><li>Kolašin</li><li>Camp in the pines</li></ul>
+              <ul class="day__tags"><li>Drive day</li><li>Kolašin</li><li>Forest stay</li></ul>
             </div>
           </article>
 
@@ -228,16 +220,15 @@
           <article class="day">
             <div class="day__rail">
               <span class="day__num">09</span>
-              <span class="day__date">Fri · Jul 19</span>
+              <span class="day__date">Transit</span>
             </div>
             <div class="day__body">
               <h3 class="day__place">Back down to Budva</h3>
               <p>
-                Drove back down to the coast and into <strong>Budva</strong> for our last two
-                nights. Checked into the apartment, then over to Chabad again for our second
-                Shabbat.
+                A ~2-hour drive from Kolašin back down to <strong>Budva</strong> on the
+                coast for the final two nights of the loop.
               </p>
-              <ul class="day__tags"><li>Drive day</li><li>Budva</li><li>Erev Shabbat</li></ul>
+              <ul class="day__tags"><li>Drive day</li><li>Budva</li></ul>
             </div>
           </article>
 
@@ -245,16 +236,16 @@
           <article class="day">
             <div class="day__rail">
               <span class="day__num">10</span>
-              <span class="day__date">Sat · Jul 20</span>
+              <span class="day__date">Coast</span>
             </div>
             <div class="day__body">
-              <h3 class="day__place">Last Shabbat by the sea</h3>
+              <h3 class="day__place">Coast day</h3>
               <p>
-                A second, easy Shabbat in Budva &mdash; the beach, the old town, the
-                <strong>Sveti Stefan</strong> view down the coast. The Adriatic here is famously
-                dark and clear; we just let the day be slow.
+                A leisure day on the Adriatic &mdash; beach time, the old town, and the
+                <strong>Sveti Stefan</strong> view down the coast. The water here is famously
+                dark and clear.
               </p>
-              <ul class="day__tags"><li>Shabbat</li><li>Sveti Stefan view</li><li>Beach</li></ul>
+              <ul class="day__tags"><li>Sveti Stefan view</li><li>Beach</li><li>Old town</li></ul>
             </div>
           </article>
 
@@ -262,55 +253,55 @@
           <article class="day">
             <div class="day__rail">
               <span class="day__num">11</span>
-              <span class="day__date">Sun · Jul 21</span>
+              <span class="day__date">Departure</span>
             </div>
             <div class="day__body">
-              <h3 class="day__place">Home</h3>
+              <h3 class="day__place">Out from Tivat</h3>
               <p>
-                Dropped the car back at <strong>Tivat</strong> and flew home in the afternoon &mdash;
-                one last look at the bay from the plane window.
+                Drop the car at <strong>Tivat</strong> and fly out &mdash; one last look at
+                the bay from the plane window.
               </p>
-              <ul class="day__tags"><li>Drop car</li><li>Fly Tivat → Tel Aviv</li></ul>
+              <ul class="day__tags"><li>Drop car</li><li>Fly out of Tivat</li></ul>
             </div>
           </article>
         </div>
       </section>
 
-      <!-- WHERE WE STAYED -->
+      <!-- WHERE TO STAY -->
       <section id="stay" class="section section--alt">
-        <h2 class="section__title">Where we stayed</h2>
-        <p class="section__lead">All apartments, all booked on Booking.com. Two stays in Budva (different places) bookending the mountains.</p>
+        <h2 class="section__title">Where to stay</h2>
+        <p class="section__lead">Apartments throughout, all bookable on Booking.com. Two stays in Budva bookend the mountain leg.</p>
 
         <div class="stays">
           <div class="stay">
             <div class="stay__nights">1 night</div>
             <h3 class="stay__name">Studio Apartman Rea</h3>
-            <p class="stay__loc">Kotor · Jul 11–12</p>
-            <p class="stay__note">Walkable to the cable car. Parking in the old town is a scrum.</p>
+            <p class="stay__loc">Kotor</p>
+            <p class="stay__note">Walkable to the cable car. Parking in the old town is a scrum &mdash; plan for it.</p>
           </div>
           <div class="stay">
             <div class="stay__nights">2 nights</div>
             <h3 class="stay__name">Apartments Mitende</h3>
-            <p class="stay__loc">Budva · Jul 12–14</p>
-            <p class="stay__note">Three minutes&rsquo; walk to Chabad &mdash; chosen for the Shabbat anchor.</p>
+            <p class="stay__loc">Budva</p>
+            <p class="stay__note">Quiet, walkable to the old town and the beach.</p>
           </div>
           <div class="stay stay--fav">
             <div class="stay__nights">4 nights</div>
             <h3 class="stay__name">Apartmani Jezero</h3>
-            <p class="stay__loc">Žabljak (Durmitor) · Jul 14–18</p>
-            <p class="stay__note">The favourite. A loft apartment in the mountains with a little restaurant downstairs.</p>
+            <p class="stay__loc">Žabljak (Durmitor)</p>
+            <p class="stay__note">The pick of the loop. A loft apartment in the mountains with a small restaurant downstairs.</p>
           </div>
           <div class="stay">
             <div class="stay__nights">1 night</div>
             <h3 class="stay__name">Camp Lipovo</h3>
-            <p class="stay__loc">Kolašin · Jul 18–19</p>
+            <p class="stay__loc">Kolašin</p>
             <p class="stay__note">A cabin in the pines &mdash; the mountains-to-coast stopover.</p>
           </div>
           <div class="stay">
             <div class="stay__nights">2 nights</div>
             <h3 class="stay__name">Apartment Petrovic Mediteran</h3>
-            <p class="stay__loc">Budva · Jul 19–21</p>
-            <p class="stay__note">Back near Chabad for the second Shabbat and the flight home.</p>
+            <p class="stay__loc">Budva</p>
+            <p class="stay__note">Coast finale, easy reach back to Tivat for the flight home.</p>
           </div>
         </div>
       </section>
@@ -323,27 +314,27 @@
           <div class="around__card">
             <h3 class="around__h">Flights</h3>
             <p>
-              EL AL, Tel Aviv ↔ <strong>Tivat (TIV)</strong>, booked with Matmid points.
-              Out Thursday July 11, home Sunday July 21. Tivat is the small coastal
-              airport &mdash; right on the bay, an easy start and finish.
+              Fly into <strong>Tivat (TIV)</strong> &mdash; the small coastal airport, right
+              on the bay, an easy start and finish to the loop. Podgorica (TGD) is the
+              alternative if Tivat fares don&rsquo;t work, but adds a ~1.5 hr transfer.
             </p>
           </div>
           <div class="around__card">
             <h3 class="around__h">The car</h3>
             <p>
-              We rented a <strong>Toyota Yaris (automatic)</strong> and picked it up at Tivat
-              airport, then drove the whole loop ourselves &mdash; coast, mountains, and back.
-              The mountain roads are narrow and winding but completely doable; by the end it
-              felt easy. A car is what makes this itinerary work.
+              A self-drive loop. A small automatic (<strong>Toyota Yaris</strong>-class) is
+              enough &mdash; pick it up at Tivat airport, drop it back there at the end. The
+              mountain roads are narrow and winding but completely doable; the car is what
+              makes this itinerary work.
             </p>
           </div>
           <div class="around__card">
             <h3 class="around__h">Good to know</h3>
             <ul class="around__list">
-              <li>Use bank ATMs &mdash; the airport/standalone ones charged painful fees.</li>
+              <li>Use bank ATMs &mdash; airport and standalone ones charge painful fees.</li>
               <li>Shops can close for multi-day holidays &mdash; stock the apartment early.</li>
-              <li>It&rsquo;s hot in July on the coast; the mountains are the cool escape.</li>
-              <li>Chabad in Budva was our Shabbat home both weekends.</li>
+              <li>July is hot on the coast; the mountains are the cool escape.</li>
+              <li>Cash is useful in the mountains; cards are fine on the coast.</li>
             </ul>
           </div>
         </div>
@@ -351,7 +342,7 @@
     </main>
 
     <footer class="footer">
-      <p class="footer__line">Montenegro · July 11&ndash;21, 2024</p>
+      <p class="footer__line">Montenegro · 11 days, coast to mountains</p>
       <p class="footer__sub">&ldquo;A country that still felt unexplored and a little bit secret.&rdquo;</p>
     </footer>
 
